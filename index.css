@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100vh;
+}
+
+body {
+    font-family: Arial;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.input-block {
+    display: grid;
+    gap: 5px;
+    max-width: 200px;
+}
+
+.input-block__btns {
+    display: flex;
+    gap: 5px;
+}
+
+.input-block__btns button {
+    padding: 5px;
+}
+
+.canvas {
+    position: relative;
+    flex: 1 1 auto;
+}
+
+.circle, .triangle, .rectangle {
+    position: absolute;
+}
+
+.circle {
+    border-radius: 50%;
+}
